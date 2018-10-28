@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lp.mvp_network.activity.MainActivity">
+
+    <include layout="@layout/app_title" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="解析出的数据 如下：" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"
+        android:text="点击进行网络请求" />
+
+</LinearLayout>

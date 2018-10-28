@@ -1,0 +1,311 @@
+13:53:47.735 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-Xmx1536m, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+13:53:47.743 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+13:53:47.778 [INFO] [org.gradle.launcher.daemon.server.health.gc.GarbageCollectionMonitor] Unable to determine a garbage collection monitoring strategy for JVMStrategy{JetBrains s.r.o version 1.8.0_152-release}
+13:53:47.809 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=85acca7d-6b84-42c7-84c6-75a7bba4a153,javaHome=F:\Android\as\jre,daemonRegistryDir=E:\work_space_mvp\gradle\daemon,pid=6924,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+13:53:48.007 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+13:53:48.010 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+13:53:48.012 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.013 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+13:53:48.013 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+13:53:48.013 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Software Loopback Interface 1
+13:53:48.013 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+13:53:48.016 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.019 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.019 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (SSTP)
+13:53:48.019 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+13:53:48.022 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.025 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.025 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (L2TP)
+13:53:48.025 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+13:53:48.027 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.031 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.031 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPTP)
+13:53:48.031 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+13:53:48.034 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.037 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.038 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPPOE)
+13:53:48.038 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+13:53:48.041 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.044 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.044 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)
+13:53:48.044 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+13:53:48.047 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.050 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.050 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)
+13:53:48.050 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+13:53:48.052 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.055 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.055 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)
+13:53:48.055 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface RAS Async Adapter
+13:53:48.058 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.060 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.061 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface RAS Async Adapter
+13:53:48.061 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+13:53:48.063 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.066 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.066 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IKEv2)
+13:53:48.066 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+13:53:48.069 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.072 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+13:53:48.072 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2001:0:6f3f:70fe:247e:2af7:3f57:fe76
+13:53:48.072 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:247e:2af7:3f57:fe76%net4
+13:53:48.072 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller
+13:53:48.075 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.077 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.1.137
+13:53:48.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:7597:802c:508b:508e%eth3
+13:53:48.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Realtek PCIe GBE Family Controller
+13:53:48.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter
+13:53:48.080 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.083 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+13:53:48.083 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:0:5efe:c0a8:3801%net5
+13:53:48.083 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Remote NDIS based Internet Sharing Device
+13:53:48.086 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.089 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.089 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Remote NDIS based Internet Sharing Device
+13:53:48.089 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter
+13:53:48.092 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.095 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.095 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.56.1
+13:53:48.095 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:ad73:134f:7e3c:303f%eth5
+13:53:48.095 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface VirtualBox Host-Only Ethernet Adapter
+13:53:48.095 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter #2
+13:53:48.098 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.20.2
+13:53:48.101 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:c57d:2a78:5760:c1db%eth6
+13:53:48.101 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface VirtualBox Host-Only Ethernet Adapter #2
+13:53:48.101 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter #3
+13:53:48.104 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.107 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+13:53:48.107 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:0:5efe:c0a8:1402%net6
+13:53:48.107 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card
+13:53:48.110 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.113 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.113 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.27.35.1
+13:53:48.113 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:2885:3b92:f8d2:817b%wlan0
+13:53:48.113 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface 802.11n USB Wireless LAN Card
+13:53:48.113 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter #4
+13:53:48.116 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.119 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+13:53:48.119 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:0:5efe:c0a8:189%net7
+13:53:48.119 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter #2
+13:53:48.122 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.124 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+13:53:48.124 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:0:5efe:ac1b:2301%net8
+13:53:48.124 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+13:53:48.127 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.130 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.130 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+13:53:48.130 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+13:53:48.133 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.136 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.136 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+13:53:48.136 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+13:53:48.139 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.142 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.142 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+13:53:48.142 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+13:53:48.145 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.148 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.148 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+13:53:48.148 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+13:53:48.151 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.153 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.154 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+13:53:48.154 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+13:53:48.156 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.159 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.159 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+13:53:48.159 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-WFP LightWeight Filter-0000
+13:53:48.162 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.164 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.164 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface VirtualBox Host-Only Ethernet Adapter-WFP LightWeight Filter-0000
+13:53:48.164 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter #2-QoS Packet Scheduler-0000
+13:53:48.167 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.170 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.170 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface VirtualBox Host-Only Ethernet Adapter #2-QoS Packet Scheduler-0000
+13:53:48.170 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter #2-WFP LightWeight Filter-0000
+13:53:48.173 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.176 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.176 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface VirtualBox Host-Only Ethernet Adapter #2-WFP LightWeight Filter-0000
+13:53:48.176 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-Virtual WiFi Filter Driver-0000
+13:53:48.178 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.181 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.181 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-Virtual WiFi Filter Driver-0000
+13:53:48.181 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-QoS Packet Scheduler-0000
+13:53:48.184 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.187 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.187 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-QoS Packet Scheduler-0000
+13:53:48.187 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-Native WiFi Filter Driver-0000
+13:53:48.190 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.193 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.193 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-Native WiFi Filter Driver-0000
+13:53:48.193 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-WFP LightWeight Filter-0000
+13:53:48.196 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:53:48.199 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:53:48.199 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-WFP LightWeight Filter-0000
+13:53:48.200 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [4e8dcd3f-33f7-400c-bc50-5055580e31f5 port:52034, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+13:53:48.204 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Mon Oct 15 13:53:48 GMT+08:00 2018, with address: [4e8dcd3f-33f7-400c-bc50-5055580e31f5 port:52034, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:53:48.204 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [4e8dcd3f-33f7-400c-bc50-5055580e31f5 port:52034, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:53:48.205 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=85acca7d-6b84-42c7-84c6-75a7bba4a153,javaHome=F:\Android\as\jre,daemonRegistryDir=E:\work_space_mvp\gradle\daemon,pid=6924,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+13:53:48.205 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [4e8dcd3f-33f7-400c-bc50-5055580e31f5 port:52034, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=85acca7d-6b84-42c7-84c6-75a7bba4a153,javaHome=F:\Android\as\jre,daemonRegistryDir=E:\work_space_mvp\gradle\daemon,pid=6924,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+13:53:48.212 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:53:48.214 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+13:53:48.220 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:53:48.221 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+13:53:48.222 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+13:53:48.226 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:52035 to /127.0.0.1:52034.
+13:53:48.226 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+13:53:48.228 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+13:53:48.229 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+13:53:48.276 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: received class org.gradle.launcher.daemon.protocol.Build
+13:53:48.276 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 16: Received non-IO message from client: Build{id=10f7413d-f89c-4ce5-aeb6-3cbbf81bb84f.1, currentDir=E:\work_space_mvp}
+13:53:48.276 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=10f7413d-f89c-4ce5-aeb6-3cbbf81bb84f.1, currentDir=E:\work_space_mvp}.
+13:53:48.277 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=10f7413d-f89c-4ce5-aeb6-3cbbf81bb84f.1, currentDir=E:\work_space_mvp} with connection: socket connection from /127.0.0.1:52034 to /127.0.0.1:52035.
+13:53:48.278 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=10f7413d-f89c-4ce5-aeb6-3cbbf81bb84f.1, currentDir=E:\work_space_mvp}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:52034 to /127.0.0.1:52035] after 0.0 minutes of idle
+13:53:48.278 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [4e8dcd3f-33f7-400c-bc50-5055580e31f5 port:52034, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:53:48.278 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [4e8dcd3f-33f7-400c-bc50-5055580e31f5 port:52034, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:53:48.279 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:53:48.280 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+13:53:48.283 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:53:48.284 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+13:53:48.284 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+13:53:48.285 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=10f7413d-f89c-4ce5-aeb6-3cbbf81bb84f.1, currentDir=E:\work_space_mvp}. Dispatching build started information...
+13:53:48.285 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:53:48.288 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {LOCALAPPDATA=C:\Users\Administrator\AppData\Local, PROCESSOR_LEVEL=6, FP_NO_HOST_CHECK=NO, USERDOMAIN=2013-20180503IC, android=F:\Android\sdk\android-sdk-windows\platform-tools, LOGONSERVER=\\2013-20180503IC, JAVA_HOME=C:\Program Files\Java\jdk1.8.0_101, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;D:\VisualSVN Server\PowerShellModules, SystemDrive=C:, APPDATA=C:\Users\Administrator\AppData\Roaming, USERNAME=Administrator, windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log, ProgramFiles(x86)=C:\Program Files (x86), VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\, VISUALSVN_SERVER=D:\VisualSVN Server\, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Program Files\TortoiseSVN\bin;F:\Android\sdk\android-sdk-windows\platform-tools;G:\apk\fanbianyi;D:\VisualSVN Server\bin, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, windows_tracing_flags=3, COMPUTERNAME=2013-20180503IC, _DFX_INSTALL_UNSIGNED_DRIVER=1, PROCESSOR_REVISION=3c03, CLASSPATH=.;C:\Program Files\Java\jdk1.8.0_101\lib;C:\Program Files\Java\jdk1.8.0_101\lib\tools.jar, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, DEVMGR_SHOW_DETAILS=1, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Administrator, SystemRoot=C:\Windows, TEMP=C:\Users\ADMINI~1\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Administrator, TMP=C:\Users\ADMINI~1\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+13:53:48.290 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:53:48.290 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 16: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@3ef9c2ba
+13:53:48.294 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:53:48.294 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6924). The daemon log file: E:\work_space_mvp\gradle\daemon\4.1\daemon-6924.out.log
+13:53:48.295 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 1.4 GB]
+13:53:48.295 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:53:48.296 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+13:53:48.297 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:53:48.298 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=85acca7d-6b84-42c7-84c6-75a7bba4a153,javaHome=F:\Android\as\jre,daemonRegistryDir=E:\work_space_mvp\gradle\daemon,pid=6924,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to F:\Android\sdk\android-sdk-windows\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Observed package id 'system-images;android-10;default;x86' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-10\x86' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-10\default\x86')
+Observed package id 'system-images;android-17;default;armeabi-v7a' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-17\armeabi-v7a' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-17\default\armeabi-v7a')
+Observed package id 'system-images;android-17;default;mips' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-17\mips' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-17\default\mips')
+Observed package id 'system-images;android-17;default;x86' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-17\x86' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-17\default\x86')
+Observed package id 'system-images;android-10;default;x86' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-10\x86' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-10\default\x86')
+Observed package id 'system-images;android-17;default;armeabi-v7a' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-17\armeabi-v7a' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-17\default\armeabi-v7a')
+Observed package id 'system-images;android-17;default;mips' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-17\mips' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-17\default\mips')
+Observed package id 'system-images;android-17;default;x86' in inconsistent location 'F:\Android\sdk\android-sdk-windows\system-images\android-17\x86' (Expected 'F:\Android\sdk\android-sdk-windows\system-images\android-17\default\x86')
+
+CONFIGURE SUCCESSFUL in 15s
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.3/constraint-layout-1.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.1/appcompat-v7-27.1.1.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.2/rxandroid-2.0.2.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava2/2.3.0/adapter-rxjava2-2.3.0.pom
+Download https://jcenter.bintray.com/com/scwang/wave/MultiWaveHeader/1.0.0-alpha-1/MultiWaveHeader-1.0.0-alpha-1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.3.0/converter-gson-2.3.0.pom
+Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-adapters/2.3.0/retrofit-adapters-2.3.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/parent/2.3.0/parent-2.3.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-converters/2.3.0/retrofit-converters-2.3.0.pom
+Download https://jcenter.bintray.com/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom
+Download https://jcenter.bintray.com/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.7/gson-2.7.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson-parent/2.7/gson-parent-2.7.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.3/constraint-layout-solver-1.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.0/support-annotations-27.1.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.9/rxjava-2.1.9.pom
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.1/support-vector-drawable-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.1/animated-vector-drawable-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.1/support-compat-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.1/support-core-ui-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.2/rxandroid-2.0.2.aar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava2/2.3.0/adapter-rxjava2-2.3.0.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.3.0/converter-gson-2.3.0.jar
+Download https://jcenter.bintray.com/com/scwang/wave/MultiWaveHeader/1.0.0-alpha-1/MultiWaveHeader-1.0.0-alpha-1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.1/appcompat-v7-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.3/constraint-layout-1.1.3.aar
+Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.aar
+Download https://jcenter.bintray.com/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.3/constraint-layout-solver-1.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.1/animated-vector-drawable-27.1.1.aar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.9/rxjava-2.1.9.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.1/support-core-ui-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.1/support-vector-drawable-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0.aar
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.3.0/converter-gson-2.3.0-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.1/appcompat-v7-27.1.1-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.1/animated-vector-drawable-27.1.1-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.1/support-compat-27.1.1-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.1/support-core-ui-27.1.1-sources.jar
+Download https://jcenter.bintray.com/com/squareup/okio/okio/1.13.0/okio-1.13.0-sources.jar
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0-sources.jar
+Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0-sources.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.1/support-vector-drawable-27.1.1-sources.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0-sources.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0-sources.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0-sources.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava2/2.3.0/adapter-rxjava2-2.3.0-sources.jar
+Download https://jcenter.bintray.com/com/scwang/wave/MultiWaveHeader/1.0.0-alpha-1/MultiWaveHeader-1.0.0-alpha-1-sources.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0-sources.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1-sources.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom
+Download https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.aar
+Download https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.jar
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+The daemon will cancel the build.
+thread 16: client disconnection detected, canceling the build
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Services for Gradle user home directory 'E:\work_space_mvp\gradle' have not been released.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+* Get more help at https://help.gradle.org
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.

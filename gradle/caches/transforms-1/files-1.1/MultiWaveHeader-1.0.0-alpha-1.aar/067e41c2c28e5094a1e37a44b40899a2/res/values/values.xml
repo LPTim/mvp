@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="string|enum" name="mwhWaves">
+        <enum name="MultiWave" value="-1"/>
+        <enum name="PairWave" value="-2"/>
+    </attr>
+    <declare-styleable name="MultiWaveHeader"><attr format="dimension" name="mwhWaveHeight"/><attr format="color" name="mwhStartColor"/><attr format="color" name="mwhCloseColor"/><attr format="boolean" name="mwhIsRunning"/><attr format="fraction|float" name="mwhColorAlpha"/><attr format="fraction|float" name="mwhProgress"/><attr format="fraction|float" name="mwhVelocity"/><attr format="integer" name="mwhGradientAngle"/><attr name="mwhWaves"/></declare-styleable>
+    <string name="app_name">Library</string>
+    <style name="MultiWaveHeader">
+    </style>
+    <style name="MultiWaveHeader.Wave">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+</resources>
