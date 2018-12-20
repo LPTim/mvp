@@ -1,7 +1,7 @@
-# mvp
-#[简书地址](https://www.jianshu.com/p/df4eee78085c)
-###使用方法
-1、新建实体类
+# mvp<br>
+[#简书地址](https://www.jianshu.com/p/df4eee78085c)<br>
+###使用方法<br>
+1、新建实体类<br>
 ```
 /**
  * File descripition:
@@ -12,7 +12,7 @@
 public class MainBean {
     /**
      * id : 11
-     * act_logo : http://www.energy-link.com.cn/upload/admin/20180828/s_29a692567d0f0d84d515eb5cf5be98d0.jpg
+     * act_logo : ""
      * play_time : 2018-06-10
      * name : 中国生物质能源产业联盟会员代表大会
      * province : 北京市
